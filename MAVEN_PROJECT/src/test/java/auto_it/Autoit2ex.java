@@ -24,6 +24,7 @@ driver.findElement(By.xpath("//*[@id=\'upload-form\']/div/div[2]/div/div[1]/div[
      Toolkit.getDefaultToolkit().getSystemClipboard().setContents(path, null);
     Robot a=new Robot();
     a.keyPress(KeyEvent.VK_CONTROL);
+    
     a.keyPress(KeyEvent.VK_V);
     a.keyRelease(KeyEvent.VK_V);
     a.keyRelease(KeyEvent.VK_CONTROL);
